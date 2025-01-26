@@ -12,4 +12,8 @@
       <_ContentIncludedByDefault Remove="Api-key\appsettings.json" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="DotEnv.Net" Version="3.2.1" />
+    </ItemGroup>
+
 </Project>
