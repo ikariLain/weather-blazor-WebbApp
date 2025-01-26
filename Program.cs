@@ -11,6 +11,7 @@ public class Program
         // Add services to the container.
         builder.Services.AddRazorComponents()
             .AddInteractiveServerComponents();
+        builder.Services.AddHttpClient();
 
         var app = builder.Build();
 
