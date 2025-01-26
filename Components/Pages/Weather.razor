@@ -42,8 +42,8 @@ else
     [Inject] private IConfiguration Configuration { get; set; } = default!;
     [Inject] private HttpClient Http { get; set; } = default!;
     
-    private string ApiKey => Configuration.GetSection("OpenWeatherMap:ApiKey").Value ?? 
-                             throw new InvalidOperationException("API key not found in configuration");
+    private string ApiKey => Environment.GetEnvironmentVariable("OPENWEATHERMAP_API_KEY") ?? 
+                           throw new InvalidOperationException("API key not found in environment variables");
     private const string ApiUrl = "http://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=";
 
     protected override async Task OnInitializedAsync()

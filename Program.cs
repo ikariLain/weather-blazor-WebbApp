@@ -1,4 +1,5 @@
 using weather_blazor.Components;
+using dotenv.net;
 
 namespace weather_blazor;
 
@@ -7,6 +8,9 @@ public class Program
     public static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
+
+        // Läs in .env filen
+        DotEnv.Load();
 
         // Add services to the container.
         builder.Services.AddRazorComponents()
