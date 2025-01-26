@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "weather-blazor", "weather-blazor.csproj", "{A477C6BF-1EDA-44FD-A71E-E6A58B3748EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A477C6BF-1EDA-44FD-A71E-E6A58B3748EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A477C6BF-1EDA-44FD-A71E-E6A58B3748EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A477C6BF-1EDA-44FD-A71E-E6A58B3748EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A477C6BF-1EDA-44FD-A71E-E6A58B3748EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
